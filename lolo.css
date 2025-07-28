@@ -2769,7 +2769,7 @@ html.theme-dark .input-2g-os5:focus-within, html.theme-dark .scrollableContainer
 
 /* user control user profile stuff*/
 html.theme-dark .panels_c48ade {
-    background: transparent !important;
+    background: #000000 !important;
     box-shadow: 0 5px 8px #15171a00 !important; /* change it to have a shadow */
 }
 
