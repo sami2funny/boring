@@ -2767,6 +2767,12 @@ html.theme-dark .input-2g-os5:focus-within, html.theme-dark .scrollableContainer
     background-color: transparent !important;
 }
 
+/* user control user profile stuff*/
+html.theme-dark .panels_c48ade {
+    background: transparent !important;
+    box-shadow: 0 5px 8px #15171a00 !important; /* change it to have a shadow */
+}
+
 /* End of Vencord summary plugin stuff */
 
 /* For dm side bar */
