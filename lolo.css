@@ -2767,10 +2767,29 @@ html.theme-dark .input-2g-os5:focus-within, html.theme-dark .scrollableContainer
     background-color: transparent !important;
 }
 
+/* make user control section transparent **dark mode only** */
+
 /* user control user profile stuff*/
 html.theme-dark .panels_c48ade {
-    background: #000000 !important;
+    background: transparent !important;
     box-shadow: 0 5px 8px #15171a00 !important; /* change it to have a shadow */
+}
+
+/* when connected to vc */
+.container_e131a9 {
+    background: transparent !important;
+    border-radius: 15px !important;
+    border-bottom: 1px solid #3f3f3f00 !important; /* This is for the border bottom. Uncomment to see effect */ 
+}
+
+/* when shring screen */
+.theme-dark .panel__5dec7 {
+    background: transparent !important;
+}
+
+/* It will make the button within Floating User Control Transparent only*/
+.theme-dark .actionButtons_e131a9 .lookFilled__201d5 {
+    background: transparent !important;
 }
 
 /* End of Vencord summary plugin stuff */
